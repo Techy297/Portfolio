@@ -575,6 +575,30 @@ section {
     color: var(--text-dark);
     font-weight: 500;
 }
+.contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-image-placeholder {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--shadow-large);
+}
+
+.hero-image-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Keep all your previous CSS (buttons, sections, stats, etc.) */
+
 
 .social-links {
     display: flex;
